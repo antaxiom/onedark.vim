@@ -2,24 +2,24 @@
 colors:
   # Default colors
   primary:
-    foreground: '0xdddddd'
+    foreground: '0xcdcdcd'
     background: '0x111111'
 
   # Cursor colors
   cursor:
     text: '0x3f3f49'
-    cursor: '0xdddddd'
+    cursor: '0xcdcdcd'
 
   # Normal colors
   normal:
     black:   '0x3f3f49'
-    red:     '0xf43d3d'
+    red:     '0xf55555'
     green:   '0x50fa7b'
     yellow:  '0xe5c76b'
     blue:    '0x61afef'
     magenta: '0xcf4ddd'
     cyan:    '0x36c8ed'
-    white:   '0xdddddd'
+    white:   '0xcdcdcd'
 
   # Bright colors
   bright:

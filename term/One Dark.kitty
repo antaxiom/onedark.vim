@@ -1,19 +1,19 @@
 # Cursor
-cursor                   #dddddd
+cursor                   #cdcdcd
 cursor_text_color        #3f3f49
 
 # Special
-foreground               #dddddd
+foreground               #cdcdcd
 background               #111111
 selection_foreground     #3f3f49
-selection_background     #dddddd
+selection_background     #cdcdcd
 
 # Black
 color0                   #3f3f49
 color8                   #45454f
 
 # Red
-color1                   #f43d3d
+color1                   #f55555
 color9                   #f44747
 
 # Green
@@ -37,5 +37,5 @@ color6                   #36c8ed
 color14                  #36c8ed
 
 # White
-color7                   #dddddd
+color7                   #cdcdcd
 color15                  #242424
