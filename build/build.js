@@ -8,7 +8,7 @@ const { resolve } = require('path')
 const baseColors = Object.freeze({
 	red: { gui: '#F45454', cterm: '204', cterm16: '1' }, // alternate cterm: 168
 	dark_red: { gui: '#f44747', cterm: '196', cterm16: '9' },
-	green: { gui: '#4CE07B', cterm: '114', cterm16: '2' },
+	green: { gui: '#54D887', cterm: '114', cterm16: '2' },
 	yellow: { gui: '#E5C76B', cterm: '180', cterm16: '3' },
 	dark_yellow: { gui: '#D19A66', cterm: '173', cterm16: '11' },
 	blue: { gui: '#61AFEF', cterm: '39', cterm16: '4' }, // alternate cterm: 75
