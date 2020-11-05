@@ -13,12 +13,12 @@ color0                   #3f3f49
 color8                   #45454f
 
 # Red
-color1                   #f55555
+color1                   #f45454
 color9                   #f44747
 
 # Green
-color2                   #50fa7b
-color10                  #50fa7b
+color2                   #4ce07b
+color10                  #4ce07b
 
 # Yellow
 color3                   #e5c76b
@@ -29,8 +29,8 @@ color4                   #61afef
 color12                  #61afef
 
 # Magenta
-color5                   #cf4ddd
-color13                  #cf4ddd
+color5                   #c44ac0
+color13                  #c44ac0
 
 # Cyan
 color6                   #36c8ed

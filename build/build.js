@@ -6,13 +6,13 @@ const { readFileSync, writeFileSync } = require('fs')
 const { resolve } = require('path')
 
 const baseColors = Object.freeze({
-	red: { gui: '#F55555', cterm: '204', cterm16: '1' }, // alternate cterm: 168
+	red: { gui: '#F45454', cterm: '204', cterm16: '1' }, // alternate cterm: 168
 	dark_red: { gui: '#f44747', cterm: '196', cterm16: '9' },
-	green: { gui: '#50fa7b', cterm: '114', cterm16: '2' },
+	green: { gui: '#4CE07B', cterm: '114', cterm16: '2' },
 	yellow: { gui: '#E5C76B', cterm: '180', cterm16: '3' },
 	dark_yellow: { gui: '#D19A66', cterm: '173', cterm16: '11' },
 	blue: { gui: '#61AFEF', cterm: '39', cterm16: '4' }, // alternate cterm: 75
-	purple: { gui: '#CF4DDD', cterm: '170', cterm16: '5' }, // alternate cterm: 176
+	purple: { gui: '#C44AC0', cterm: '170', cterm16: '5' }, // alternate cterm: 176
 	cyan: { gui: '#36C8ED', cterm: '38', cterm16: '6' }, // alternate cterm: 73
 	white: { gui: '#CDCDCD', cterm: '145', cterm16: '7' },
 	black: { gui: '#111111', cterm: '235', cterm16: '0' },
