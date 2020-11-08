@@ -6,9 +6,9 @@ const { readFileSync, writeFileSync } = require('fs')
 const { resolve } = require('path')
 
 const baseColors = Object.freeze({
-	red: { gui: '#FF434E', cterm: '204', cterm16: '1' }, // alternate cterm: 168
-	dark_red: { gui: '#f44747', cterm: '196', cterm16: '9' },
-	green: { gui: '#42F19B', cterm: '114', cterm16: '2' },
+	red: { gui: '#FF3249', cterm: '204', cterm16: '1' }, // alternate cterm: 168
+	dark_red: { gui: '#F44747', cterm: '196', cterm16: '9' },
+	green: { gui: '#39F580', cterm: '114', cterm16: '2' },
 	yellow: { gui: '#dfbf60', cterm: '180', cterm16: '3' },
 	dark_yellow: { gui: '#D19A66', cterm: '173', cterm16: '11' },
 	blue: { gui: '#61AFEF', cterm: '39', cterm16: '4' }, // alternate cterm: 75
