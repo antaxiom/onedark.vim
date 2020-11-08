@@ -13,12 +13,12 @@ color0                   #3f3f49
 color8                   #45454f
 
 # Red
-color1                   #ff3249
+color1                   #ff4444
 color9                   #f44747
 
 # Green
-color2                   #45ee75
-color10                  #45ee75
+color2                   #55ee82
+color10                  #55ee82
 
 # Yellow
 color3                   #dfbf60
