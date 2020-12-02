@@ -12,7 +12,7 @@ const baseColors = Object.freeze({
 	yellow: { gui: '#DFBF60', cterm: '180', cterm16: '3' },
 	dark_yellow: { gui: '#D19A66', cterm: '173', cterm16: '11' },
 	blue: { gui: '#61AFEF', cterm: '39', cterm16: '4' }, // alternate cterm: 75
-	purple: { gui: '#BE4DCC', cterm: '170', cterm16: '5' }, // alternate cterm: 176
+	purple: { gui: '#E06CCD', cterm: '170', cterm16: '5' }, // alternate cterm: 176
 	cyan: { gui: '#5BC6D1', cterm: '38', cterm16: '6' }, // alternate cterm: 73
 	white: { gui: '#DDDDDD', cterm: '145', cterm16: '7' },
 	black: { gui: '#111111', cterm: '235', cterm16: '0' },
@@ -101,10 +101,7 @@ Object.keys(templateMap).forEach((templateFilename) => {
 
 try {
 	// Use the Xresources theme as a color source since it was generated above via templating
-	const xresources = readFileSync(
-		resolve(__dirname, '../term/One Dark.Xresources'),
-		'utf8'
-	)
+	const xresources = readFileSync(resolve(__dirname, '../term/One Dark.Xresources'), 'utf8')
 	const terminalPalette = termcolors.xresources.import(xresources)
 
 	let alacrittyTemplate, itermTemplate, kittyTemplate, terminalAppTemplate
@@ -155,8 +152,7 @@ try {
 						return n.toFixed(10).toString()
 					})
 					.join(' ')
-				var output =
-          code[0].toString('binary') + srgb + code[1].toString('binary')
+				var output = code[0].toString('binary') + srgb + code[1].toString('binary')
 				output = Buffer.from(output, 'binary').toString('base64')
 				return output.match(/.{1,68}/g).join('\n\t')
 			})
@@ -174,10 +170,7 @@ try {
 			resolve(__dirname, '../term/One Dark.itermcolors'),
 			itermTemplate(terminalPalette)
 		)
-		writeFileSync(
-			resolve(__dirname, '../term/One Dark.kitty'),
-			kittyTemplate(terminalPalette)
-		)
+		writeFileSync(resolve(__dirname, '../term/One Dark.kitty'), kittyTemplate(terminalPalette))
 		writeFileSync(
 			resolve(__dirname, '../term/One Dark.terminal'),
 			terminalAppTemplate(terminalPalette)

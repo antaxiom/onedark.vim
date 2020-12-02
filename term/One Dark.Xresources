@@ -24,8 +24,8 @@
 *.color12:      #61AFEF
 
 ! magenta
-*.color5:       #BE4DCC
-*.color13:      #BE4DCC
+*.color5:       #E06CCD
+*.color13:      #E06CCD
 
 ! cyan
 *.color6:       #5BC6D1
